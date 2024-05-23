@@ -285,7 +285,7 @@ function App() {
 
         {/* Technoglies section */}
         <section className="py-10" id="technologies">
-          <div className="container m-auto px-4">
+{/*           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Technologies</h2>
             <div className="mt-14">
               <div>
@@ -345,6 +345,52 @@ function App() {
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-[45%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+              </div>
+            </div>
+          </div> */}
+
+
+          <div className="container m-auto px-4 py-14">
+            <h2 className="text-2xl font-semibold">
+              Technologies
+            </h2>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  C/C++
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                JavaScript
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  HTML/CSS
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  TailwindCSS
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-36 mt-4 sm:mt-6 w-[80%]">
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                 Python
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                React Js & Next Js
+                </p>
+              </div>
+              <div>
+                <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
+                  Node Js
+                </p>
               </div>
             </div>
           </div>
