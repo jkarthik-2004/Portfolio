@@ -2,7 +2,7 @@ import "./App.css";
 import Porfile from "./assets/Karthik img.jpg";
 import Project1 from "./assets/bricks-estate.png";
 import Project2 from "./assets/X-clone-img.png";
-import Project3 from "./assets/ml-img.jpg";
+import Project3 from "./assets/filmfusion.png";
 import Project4 from "./assets/myntra-img.png";
 import ArrowDown from "./assets/arrow-down.svg";
 import { useEffect, useState } from "react";
@@ -200,12 +200,86 @@ function App() {
 
 
 
-
-
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
+              {/* Film Fusion */}
+
+
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={Project3} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold mt-8">Film Fusion</h3>
+                <p className="text-gray-400 text-sm mt-2">
+                Movie suggestion website using NextJs and TailwindCSS
+                </p>
+                <div className="flex mt-20 justify-evenly">
+                  <a href="https://film-fusion-zeta.vercel.app/" target="_blank">
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                      </span>
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/jkarthik-2004/FilmFusion"
+                    target="_blank"
+                  >
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Checkout github
+                        <FaGithub className="inline ml-2 mb-1" />
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+
+              {/* Myntra clone JS */}
+
+
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={Project4} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold mt-8">Myntra Clone</h3>
+                <p className="text-gray-400 text-sm mt-2">
+                A Clone of Myntra using Html/Css, JavaScript
+                </p>
+                <div className="flex mt-20 justify-evenly">
+                 
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                      </span>
+                    </button>
+                  
+                  <a
+                    href="https://github.com/jkarthik-2004/MyntraClone-JS"
+                    target="_blank"
+                  >
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Checkout github
+                        <FaGithub className="inline ml-2 mb-1" />
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+            
+
+
+
+
+
+            {/* <div className="flex flex-col sm:flex-row gap-10 mt-11"> */}
               {/*Predictive Maintenance  */}
 
-
+{/* 
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Predictive Maintenance</h3>
@@ -233,13 +307,13 @@ function App() {
                   </a>
                 </div>
               </div>
-
+ */}
 
 
               {/* Myntra Clone */}
 
 
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+              {/* <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Myntra Clone</h3>
                 <p className="text-gray-400 text-sm mt-2">
@@ -265,12 +339,10 @@ function App() {
                     </button>
                   </a>
                 </div>
-              </div>
+              </div> */}
 
 
-            </div>
-
-
+            {/* </div> */}
 
 
          
@@ -285,7 +357,7 @@ function App() {
 
         {/* Technoglies section */}
         <section className="py-10" id="technologies">
-{/*           <div className="container m-auto px-4">
+          {/* <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">Technologies</h2>
             <div className="mt-14">
               <div>
@@ -350,7 +422,8 @@ function App() {
           </div> */}
 
 
-          <div className="container m-auto px-4 py-14">
+
+<div className="container m-auto px-4 py-14">
             <h2 className="text-2xl font-semibold">
               Technologies
             </h2>
@@ -394,6 +467,11 @@ function App() {
               </div>
             </div>
           </div>
+
+
+
+
+
         </section>
         {/* Additional skills section */}
         <section>
@@ -474,32 +552,7 @@ function App() {
           </div>
         </section>
       </main>
-      {/* <footer>
-        <div className="container m-auto flex justify-between px-4 py-6">
-          <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
-          </div>
-          <div>
-            <ul className="flex gap-4">
-              <li>
-                <a>
-                  <img src={Facebook} className="w-5" />
-                </a>
-              </li>
-              <li>
-                <a>
-                  <img src={LinkedIn} className="w-5" />
-                </a>
-              </li>
-              <li>
-                <a>
-                  <img src={Instagram} className="w-5" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer> */}
+      
       {scrolling && (
         <button
           className="fixed block right-8 bottom-0 w-24"
