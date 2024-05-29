@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import { CiGlobe } from "react-icons/ci";
+import { IoDocumentAttachOutline } from "react-icons/io5";
 
 
 function App() {
@@ -113,6 +114,15 @@ function App() {
                     LinkedIn
                     <FaLinkedin className="inline ml-2 mb-1" />
                   </a>
+                </button>
+                 <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                <a
+                    href="https://drive.google.com/file/d/10tKDtGGip3kbh3mACzxOYy5vGqebD-eK/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Resume
+                    <IoDocumentAttachOutline className="inline ml-2 mb-1" />
+                     </a>
                 </button>
               </div>
             </div>
