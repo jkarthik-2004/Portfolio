@@ -13,7 +13,6 @@ import { FaLinkedin } from "react-icons/fa6";
 import { CiGlobe } from "react-icons/ci";
 import { IoDocumentAttachOutline } from "react-icons/io5";
 
-
 function App() {
   const [scrolling, setScrolling] = useState(false);
 
@@ -92,8 +91,8 @@ function App() {
               <div>
                 <p className="mt-4 text-gray-400">
                   I am a passionate and enthusiastic web developer, currently in
-                  final year of B.Tech in Computer Science and Engineering at Indian
-                  Institute of Information Technology Kottayam, India.
+                  final year of B.Tech in Computer Science and Engineering at
+                  Indian Institute of Information Technology Kottayam, India.
                 </p>
                 <a href="https://github.com/jkarthik-2004" target="_blank">
                   <button
@@ -117,14 +116,17 @@ function App() {
                     <FaLinkedin className="inline ml-2 mb-1" />
                   </a>
                 </button>
-                 <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-                <a
+                <button
+                  type="button"
+                  class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                >
+                  <a
                     href="https://drive.google.com/file/d/19D635HUZ6250p0K58HDqa1k6SZ4RErC_/view?usp=drive_link"
                     target="_blank"
                   >
                     Resume
                     <IoDocumentAttachOutline className="inline ml-2 mb-1" />
-                     </a>
+                  </a>
                 </button>
               </div>
             </div>
@@ -140,11 +142,11 @@ function App() {
         </section>
         {/* Projects section */}
         <section id="projects">
+
           <div className="container m-auto px-4 sm:py-12">
             <h2 className="text-2xl font-semibold">Projects</h2>
-            <div className="flex flex-col sm:flex-row gap-10 mt-11">
+            <div className="flex flex-col sm:flex-row gap-5">
               {/* Bricks Estate */}
-
 
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project1} className="w-full h-auto" />
@@ -156,7 +158,7 @@ function App() {
                   <a href="https://bricks-estate.onrender.com/" target="_blank">
                     <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                        Live preview <CiGlobe className="inline ml-2 mb-1" />
                       </span>
                     </button>
                   </a>
@@ -174,22 +176,22 @@ function App() {
                 </div>
               </div>
 
-
-
               {/* X Clone */}
-
 
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">X Clone</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                X(Twitter) Clone using Next.js and Tailwind CSS
+                  X(Twitter) Clone using Next.js and Tailwind CSS
                 </p>
                 <div className="flex mt-20 justify-evenly">
-                  <a href="https://x-clone-gilt-six.vercel.app/" target="_blank">
+                  <a
+                    href="https://x-clone-gilt-six.vercel.app/"
+                    target="_blank"
+                  >
                     <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                        Live preview <CiGlobe className="inline ml-2 mb-1" />
                       </span>
                     </button>
                   </a>
@@ -206,27 +208,30 @@ function App() {
                   </a>
                 </div>
               </div>
-
-
+              
+              
             </div>
+
 
 
 
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               {/* Film Fusion */}
 
-
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">Film Fusion</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                Movie suggestion website using NextJs and TailwindCSS
+                  Movie suggestion website using NextJs and TailwindCSS
                 </p>
                 <div className="flex mt-20 justify-evenly">
-                  <a href="https://film-fusion-zeta.vercel.app/" target="_blank">
+                  <a
+                    href="https://film-fusion-zeta.vercel.app/"
+                    target="_blank"
+                  >
                     <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                        Live preview <CiGlobe className="inline ml-2 mb-1" />
                       </span>
                     </button>
                   </a>
@@ -244,55 +249,26 @@ function App() {
                 </div>
               </div>
 
+              {/* Predictive Maintenance*/}
 
-
-              {/* Myntra clone JS */}
-
-
+             
               <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Project4} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Myntra Clone</h3>
+              <img src={Project5} className="w-full" style={{ height: '200px' }} />
+
+                <h3 className="text-2xl font-semibold mt-8">
+                  Predictive Maintenance
+                </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                A Clone of Myntra using Html/Css, JavaScript
+                  Predictive Maintenance of Turbo Engine using Machine Learning
                 </p>
-                <div className="flex mt-20 justify-evenly">
-                 
-                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
-                      </span>
-                    </button>
-                  
+                <div className="flex mt-10 justify-evenly">
                   <a
-                    href="https://github.com/jkarthik-2004/MyntraClone-JS"
+                    href="https://predictivemaintenance-team10.streamlit.app/"
                     target="_blank"
                   >
-                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
-                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Checkout github
-                        <FaGithub className="inline ml-2 mb-1" />
-                      </span>
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-
-
-
- {/* predictive */}
-
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Project5} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">Predictive Maintenance</h3>
-                <p className="text-gray-400 text-sm mt-2">
-                 Predictive Maintenance of Turbo Engine using Machine Learning
-                </p>
-                <div className="flex mt-20 justify-evenly">
-                  <a href="https://predictivemaintenance-team10.streamlit.app/" target="_blank">
                     <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                        Live preview <CiGlobe className="inline ml-2 mb-1" />
                       </span>
                     </button>
                   </a>
@@ -310,21 +286,29 @@ function App() {
                 </div>
               </div>
 
-            
-{/* One-Lot */}
+              
+            </div>
 
 
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
+            <div className="flex flex-col sm:flex-row gap-10 mt-11">
+               {/* One-Lot */}
+
+               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Project6} className="w-full h-auto" />
-                <h3 className="text-2xl font-semibold mt-8">One Lot Hero Page</h3>
+                <h3 className="text-2xl font-semibold mt-8">
+                  One Lot Hero Page
+                </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Hero Page using NextJS, TailwindCss
                 </p>
-                <div className="flex mt-20 justify-evenly">
-                  <a href="https://one-lot-assignment.vercel.app/" target="_blank">
+                <div className="flex mt-10 justify-evenly">
+                  <a
+                    href="https://one-lot-assignment.vercel.app/"
+                    target="_blank"
+                  >
                     <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                       <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                        Live preview <CiGlobe className="inline ml-2 mb-1"/>
+                        Live preview <CiGlobe className="inline ml-2 mb-1" />
                       </span>
                     </button>
                   </a>
@@ -342,16 +326,41 @@ function App() {
                 </div>
               </div>
 
+              {/* Myntra Clone JS */}
+              <div className="border border-gray-500 rounded-md p-5 flex-1">
+                <img src={Project4} className="w-full h-auto" />
+                <h3 className="text-2xl font-semibold mt-8">Myntra Clone</h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  A Clone of Myntra using Html/Css, JavaScript
+                </p>
+                <div className="flex mt-10 justify-evenly">
+                  <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      Live preview <CiGlobe className="inline ml-2 mb-1" />
+                    </span>
+                  </button>
+
+                  <a
+                    href="https://github.com/jkarthik-2004/MyntraClone-JS"
+                    target="_blank"
+                  >
+                    <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                      <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        Checkout github
+                        <FaGithub className="inline ml-2 mb-1" />
+                      </span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+             
             </div>
-         
+
+
+
           </div>
         </section>
-
-
-
-
-
-
 
         {/* Technoglies section */}
         <section className="py-10" id="technologies">
@@ -419,12 +428,8 @@ function App() {
             </div>
           </div> */}
 
-
-
-<div className="container m-auto px-4 py-14">
-            <h2 className="text-2xl font-semibold">
-              Technologies
-            </h2>
+          <div className="container m-auto px-4 py-14">
+            <h2 className="text-2xl font-semibold">Technologies</h2>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-28 mt-12 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
@@ -433,7 +438,7 @@ function App() {
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                JavaScript
+                  JavaScript
                 </p>
               </div>
               <div>
@@ -450,12 +455,12 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-36 mt-4 sm:mt-6 w-[80%]">
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                 Python
+                  Python
                 </p>
               </div>
               <div>
                 <p className="font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5">
-                React Js & Next Js
+                  React Js & Next Js
                 </p>
               </div>
               <div>
@@ -465,11 +470,6 @@ function App() {
               </div>
             </div>
           </div>
-
-
-
-
-
         </section>
         {/* Additional skills section */}
         <section>
@@ -519,10 +519,6 @@ function App() {
           </div>
         </section>
 
-
-
-
-
         <section className="py-8" id="aboutme">
           <div className="container m-auto px-4">
             <h2 className="text-2xl font-semibold">About me</h2>
@@ -530,27 +526,31 @@ function App() {
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2021</h3>
                 <p>
-                  Currently pursuing Bachelor of Technology in Computer Science and Engineering at <b>Indian Institute of Information Technology Kottayam</b>, Kerala,  CGPA: 8.14 (2021-2025)
+                  Currently pursuing Bachelor of Technology in Computer Science
+                  and Engineering at{" "}
+                  <b>Indian Institute of Information Technology Kottayam</b>,
+                  Kerala, CGPA: 8.14 (2021-2025)
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2019</h3>
                 <p>
-                  Studied Class 12 at Tirumala Junior College, Rajahmundry, Andhra Pradesh,    Percentage: 98.3% (2019-2021)
+                  Studied Class 12 at Tirumala Junior College, Rajahmundry,
+                  Andhra Pradesh, Percentage: 98.3% (2019-2021)
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
                 <h3 className="absolute left-0 text-lg font-semibold">2018</h3>
                 <p>
-                Studied Class 10 at Bhashyam Public School, Amalapuram, Andhra Pradesh,    CGPA: 10.0 (2018-2019)
+                  Studied Class 10 at Bhashyam Public School, Amalapuram, Andhra
+                  Pradesh, CGPA: 10.0 (2018-2019)
                 </p>
               </div>
-              
             </div>
           </div>
         </section>
       </main>
-      
+
       {scrolling && (
         <button
           className="fixed block right-8 bottom-0 w-24"
