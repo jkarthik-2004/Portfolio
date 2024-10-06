@@ -121,7 +121,7 @@ function App() {
                   class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                 >
                   <a
-                    href="https://drive.google.com/file/d/19D635HUZ6250p0K58HDqa1k6SZ4RErC_/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1hkdwTCFV0_SUaYBDRj6j6htIXhRGhJgC/view?usp=sharing"
                     target="_blank"
                   >
                     Resume
